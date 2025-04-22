@@ -84,6 +84,8 @@ def main():
             bb_imgs.append(img)
         return bb_imgs, bb_accs
     
+
+    
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT: 
