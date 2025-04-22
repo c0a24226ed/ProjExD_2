@@ -65,6 +65,10 @@ def main():
     
     cry_img = pg.transform.rotozoom(pg.image.load("fig/8.png"), 0, 0.9)
 
+""" 
+コメント書きました!!!
+"""
+
     def gameover(screan: pg.Surface) -> None:
         screan.blit(kurohaikei_img, kurohaikei_rct)
         screan.blit(txt, [400, 300])
